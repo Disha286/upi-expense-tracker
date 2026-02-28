@@ -7,8 +7,15 @@ require("./config/db");
 const app = express();
 const PORT = 5000;
 
+//middleware
 app.use(cors());
 app.use(express.json());
+
+//import transaction routes
+const transactionRoutes = require("./routes/transactions");
+
+//use transaction routes
+app.use("/transactions", transactionRoutes);
 
 // CREATE EXPENSE
 app.post("/expenses", async (req, res) => {
