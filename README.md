@@ -1,4 +1,4 @@
-# 💸 UPI Expense Tracker (Transactly)
+# 💸 UPI Expense Tracker-Transactly
 
 > A personal finance dashboard that parses UPI transactions and gives you actionable spending insights — built for the way Indians actually spend money.
 
