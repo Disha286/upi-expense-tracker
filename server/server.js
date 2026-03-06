@@ -15,6 +15,8 @@ app.use(express.json());
 // Routes
 const transactionRoutes = require("./routes/transactions");
 const expenseRoutes = require("./routes/expenseRoutes");
+const authRoutes = require("./routes/auth");
+app.use("/auth", authRoutes);
 
 app.use("/transactions", transactionRoutes);
 app.use("/api/expenses", expenseRoutes);
