@@ -73,7 +73,7 @@ export default function Dashboard() {
       <nav className="bg-gray-900 border-b border-gray-800 px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-xl">💸</span>
-          <span className="font-bold text-white">UPI Tracker</span>
+          <span className="font-bold text-white">Transactly</span>
         </div>
         <div className="flex items-center gap-4">
           <span className="text-gray-400 text-sm">Hey, {user.name} 👋</span>
