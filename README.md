@@ -1,8 +1,7 @@
 # 💸 UPI Expense Tracker-Transactly
 
 > A personal finance dashboard that parses UPI transactions and gives you actionable spending insights — built for the way Indians actually spend money.
-
-🔗 **Live Demo:** _coming soon_
+🔗 Live Demo: https://transactly-eta.vercel.app
 📂 **Built with:** React · Node.js · PostgreSQL · Recharts
 
 ---
